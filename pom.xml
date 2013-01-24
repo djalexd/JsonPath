@@ -24,7 +24,7 @@
     <groupId>com.jayway.jsonpath</groupId>
     <artifactId>json-path-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.8.2-SNAPSHOT</version>
+    <version>0.8.2-240120130-jdk5</version>
     <url>https://github.com/jayway/JsonPath</url>
     <name>json-path-parent-pom</name>
     <description>Java JsonPath implementation</description>
@@ -112,8 +112,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.5</source>
+                    <target>1.5</target>
                 </configuration>
             </plugin>
 
